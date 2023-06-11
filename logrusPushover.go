@@ -1,5 +1,5 @@
 // Created by: Raz Steinmetz
-package logrus_pushover
+package logrusPushover
 
 import (
 	"errors"
