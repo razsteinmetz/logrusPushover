@@ -1,4 +1,4 @@
-module logrus-pushover
+module logrus_pushover
 
 go 1.20
 
@@ -13,7 +13,7 @@ require (
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/onsi/ginkgo v1.16.5 // indirect
-	github.com/onsi/gomega v1.27.7 // indirect
+	github.com/onsi/gomega v1.27.8 // indirect
 	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/term v0.8.0 // indirect
