@@ -1,4 +1,4 @@
-module github.com/razsteinmetz/logrus_pushover
+module github.com/razsteinmetz/logrusPushover
 
 go 1.20
 
