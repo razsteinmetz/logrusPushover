@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/razsteinmetz/logrus_pushover"
+	"github.com/razsteinmetz/logrusPushover"
 	"github.com/sirupsen/logrus"
 	"time"
 )
@@ -28,7 +28,7 @@ const userkey = "long user key"
 
 func main() {
 	// note different log level to pushover (Error level) vs Debug level to console
-	hook := logrus_pushover.NewPushoverHook(userkey, apikey1, true, logrus.ErrorLevel, "", true)
+	hook := logrusPushover.NewPushoverHook(userkey, apikey1, true, logrus.ErrorLevel, "", true)
 	log := logrus.New()
 	log.Hooks.Add(hook)
 	log.SetFormatter(&logrus.TextFormatter{
