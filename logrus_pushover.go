@@ -1,3 +1,4 @@
+// Created by: Raz Steinmetz
 package logrus_pushover
 
 import (

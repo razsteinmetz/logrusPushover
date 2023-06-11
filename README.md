@@ -23,8 +23,8 @@ import (
 )
 
 // setup your api key and user key
-const apikey = "a28gn2ec46x8jjmgevz3fuona2nf1j"
-const userkey = "ushj4h9ewt3bsbzhjpizqiurbqwh3e"
+const apikey = "lognapikey"
+const userkey = "long user key"
 
 func main() {
 	// note different log level to pushover (Error level) vs Debug level to console
